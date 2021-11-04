@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 .jumbotron {
+    font-family: 'Roboto', sans-serif;
     background-color: #2d3236;
     color : #f4f8fc;
 }
