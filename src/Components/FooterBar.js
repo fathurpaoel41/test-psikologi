@@ -2,7 +2,7 @@ import React from "react"
 
 export default function FooterBar() {
     return (
-        <div>
+        <div style={{bottom: "0",position: "relative"}}>
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
                     <a
@@ -33,6 +33,7 @@ export default function FooterBar() {
                     <li class="ms-3">&nbsp;</li>
                 </ul>
             </footer>
+            &nbsp;
         </div>
     )
 }
