@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './Pages/Home/Home'
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom"
+import NavigationBar from './Components/NavigationBar'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+  <BrowserRouter>
+    <NavigationBar />
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
