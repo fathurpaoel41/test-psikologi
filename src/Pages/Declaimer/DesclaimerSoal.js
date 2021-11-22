@@ -1,8 +1,15 @@
 import React, { Component } from "react"
 import Content from "../../Components/Content"
 import { Card, Button, Col } from "react-bootstrap"
-
+import {Link} from "react-router-dom"
 export default class DesclaimerSoal extends Component {
+    constructor(props){
+        super(props)
+        this.styleLink = {
+            textDecoration: "none",
+            color: "white",
+        }
+    }
     render() {
         return (
             <Content>
@@ -32,7 +39,7 @@ export default class DesclaimerSoal extends Component {
                     Tes kepribadian adalah seperangkat alat tes yang disusun untuk mendeskripsikan bagaimana kecenderungan seseorang bertingkah laku. Tes kepribadian sebenarnya adalah deskripsi kualitatif dari kepribadian, bukannya deskripsi kuantitatif (angka-angka), karena sebenarnya kepribadian tidak dapat diukur, tetapi hanya dapat dideskripsikan. Untuk membantu menjelaskan kepribadian, alat tes kepribadian menggunakan bantuan angka-angka dan kemudian hasilnya dintrepretasikan/dideskripsikan kedalam kualitatif.
                     </p>
                     </div>
-                    <Button variant="primary" size="lg">Mulai Kerjakan!</Button>
+                    <Button variant="primary" size="lg"><Link to="/test-psikologi" style={this.styleLink}>Mulai Kerjakan!</Link></Button>
                 </Col>
             </Content>
         )
