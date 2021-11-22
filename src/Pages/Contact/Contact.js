@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Content from '../../Components/Content'
-import {Col,Image} from "react-bootstrap"
+import {Image} from "react-bootstrap"
 import fathur from "../../Assets/images/fathur2.jpg"
 
 export default class Contact extends Component {
@@ -13,6 +13,7 @@ export default class Contact extends Component {
                 <br />
                 Instagram : <a href="https://www.instagram.com/mfrfathur09/">@mfrfathur09</a> <br />
                 Email : <a href="mailto:fathurpaoel41@gmail.com">fathurpaoel41@gmail.com</a>
+                <br /><br /><br />
             </Content>
         )
     }

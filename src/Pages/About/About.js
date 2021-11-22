@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Content from '../../Components/Content'
 import fathur from "../../Assets/images/fathur1.jpg"
-import {Col,Image} from "react-bootstrap"
+import {Image} from "react-bootstrap"
 
 export default class About extends Component {
     render() {
