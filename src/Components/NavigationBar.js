@@ -6,6 +6,8 @@ import Home from "../Pages/Home/Home"
 import About from "../Pages/About/About"
 import "../Assets/Style.css"
 import DesclaimerSoal from "../Pages/Declaimer/DesclaimerSoal"
+import TesPsikologi from "../Pages/Tes-Psikologi/TesPsikologi"
+import HasilTest from "../Pages/Hasil/HasilTest"
 
 export default function NavigationBar() {
 
@@ -41,6 +43,8 @@ export default function NavigationBar() {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/soal" element={<DesclaimerSoal />} />
+                <Route path="/test-psikologi" element={<TesPsikologi />} />
+                <Route path="/hasil-test" element={<HasilTest />} />
                 <Route
                     path="*"
                     element={
