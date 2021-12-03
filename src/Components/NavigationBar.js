@@ -21,7 +21,7 @@ export default function NavigationBar() {
         <div>
             <Navbar expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">In Your Brain</Navbar.Brand>
+                    <Navbar.Brand><Link to="/" style={styleLink}>In Your Brain</Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -42,7 +42,7 @@ export default function NavigationBar() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/soal" element={<DesclaimerSoal />} />
+                <Route path="/soal/:id" element={<DesclaimerSoal/>} />
                 <Route path="/test-psikologi" element={<TesPsikologi />} />
                 <Route path="/hasil-test" element={<HasilTest />} />
                 <Route
