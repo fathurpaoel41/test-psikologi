@@ -1,17 +1,29 @@
-import React, { Component } from "react"
+import React, { useEffect,useState } from "react"
 import Content from "../../Components/Content"
 import { Card, Button, Col } from "react-bootstrap"
-import {Link} from "react-router-dom"
-export default class DesclaimerSoal extends Component {
-    constructor(props){
-        super(props)
-        this.styleLink = {
-            textDecoration: "none",
-            color: "white",
-        }
+import {Link,useParams} from "react-router-dom"
+import DataDesclaimerSoalAPI from "../../API/DataDesclaimerSoalAPI"
+
+const DesclaimerSoal = () => {
+    const [description,setDescription] = useState()
+    const [titleSoal,setTitleSoal] = useState()
+    let {id} = useParams();
+    const styleLink = {
+        textDecoration: "none",
+        color: "white",
     }
-    render() {
-        return (
+
+    useEffect(() => {
+        const dataDesclaimerSoalAPI = new DataDesclaimerSoalAPI()
+        dataDesclaimerSoalAPI.getDesclaimerSoal(id).then((data) => {
+            setTitleSoal(data.data.titleSoal)
+            setDescription(data.data.descriptionSoal)
+        })
+        localStorage.setItem("idSoal",id)
+      },[]);
+    
+    return (
+        <div>
             <Content>
                 <Col xs={12} style={{ color: "black" }}>
                     <Card >
@@ -34,14 +46,17 @@ export default class DesclaimerSoal extends Component {
                 <br />
                 <Col xs={12}>
                     <div className="py-4">
+                    <h2><center>{titleSoal}</center></h2>
                     Deskripsi Soal :<br />
                     <p align="justify">
-                    Tes kepribadian adalah seperangkat alat tes yang disusun untuk mendeskripsikan bagaimana kecenderungan seseorang bertingkah laku. Tes kepribadian sebenarnya adalah deskripsi kualitatif dari kepribadian, bukannya deskripsi kuantitatif (angka-angka), karena sebenarnya kepribadian tidak dapat diukur, tetapi hanya dapat dideskripsikan. Untuk membantu menjelaskan kepribadian, alat tes kepribadian menggunakan bantuan angka-angka dan kemudian hasilnya dintrepretasikan/dideskripsikan kedalam kualitatif.
+                    {description}
                     </p>
                     </div>
-                    <Button variant="primary" size="lg"><Link to="/test-psikologi" style={this.styleLink}>Mulai Kerjakan!</Link></Button>
+                    <Button variant="primary" size="lg"><Link to="/test-psikologi" style={styleLink}>Mulai Kerjakan!</Link></Button>
                 </Col>
             </Content>
-        )
-    }
+        </div>
+    )
 }
+
+export default DesclaimerSoal
