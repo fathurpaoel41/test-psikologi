@@ -24,6 +24,7 @@ export default class CardTestMultipleChoice extends Component {
             point : firstValue,
         }
      
+        
         this.props.savePointCallback(objectPoint)
     }
 
