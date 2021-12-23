@@ -47,19 +47,23 @@
                     "pilihan": [
                         {
                             "jawaban": "a",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 3
                         },
                         {
                             "jawaban": "b",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 2
                         },
                         {
                             "jawaban": "c",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 1
                         },
                         {
                             "jawaban": "d",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 5
                         }
                     ],
                     "kunciJawaban": "a"
@@ -70,46 +74,54 @@
                     "pilihan": [
                         {
                             "jawaban": "a",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 5
                         },
                         {
                             "jawaban": "b",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 4
                         },
                         {
                             "jawaban": "c",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 3
                         },
                         {
                             "jawaban": "d",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 2
                         }
                     ],
                     "kunciJawaban": "b"
                 },
                 {
                     "nomor": 3,
-                    "pertanyaan": "blublublublublu",
+                    "pertanyaan": "bleblebleblelb",
                     "pilihan": [
                         {
                             "jawaban": "a",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 5
                         },
                         {
                             "jawaban": "b",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 4
                         },
                         {
                             "jawaban": "c",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 3
                         },
                         {
                             "jawaban": "d",
-                            "soal": "asdasdasd"
+                            "soal": "asdasdasd",
+                            "point" : 2
                         }
                     ],
-                    "kunciJawaban": "c"
-                }
+                    "kunciJawaban": "b"
+                }                
             ]
         },
         {
