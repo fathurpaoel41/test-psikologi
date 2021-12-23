@@ -6,6 +6,12 @@ import CardSoal from "../../Components/CardSoal"
 export default class HasilTest extends Component {
     constructor(props) {
         super(props)
+        
+        const getTotalPoint = localStorage.getItem("totalPoint")
+
+        this.state = {
+            total_points: getTotalPoint,
+        }
     }
     render() {
         return (
@@ -18,7 +24,7 @@ export default class HasilTest extends Component {
                             <Card.Text>
                                 <h2>
                                     <center>
-                                        <b>Skor Anda : </b>
+                                        <b>Skor Anda : {this.state.total_points}</b>
                                     </center>
                                 </h2>
                                 <br />
