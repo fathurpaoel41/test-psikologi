@@ -24,7 +24,7 @@ export default class CardTestMultipleChoice extends Component {
             point : firstValue,
         }
      
-        this.props.savePointCallback(objectPoint)
+        this.props.savePointCallback(objectPoint) 
     }
 
     render() {
@@ -36,7 +36,7 @@ export default class CardTestMultipleChoice extends Component {
                         <Test onOptionSelect={(selectedOptions) =>this.savePoint(selectedOptions)} style={{ width: "100%" }}>
                             <QuestionGroup questionNumber={this.state.optionTest.nomor}>
                                 <Card.Text>
-                                    <Question className="StyleQuestion">
+                                    <Question>
                                         <p
                                             align="justify"
                                             style={{
@@ -58,7 +58,14 @@ export default class CardTestMultipleChoice extends Component {
                                                 }
                                             }}
                                         >
-                                            {res.soal}
+                                            <p
+                                            align="justify"
+                                            style={{
+                                                width: "100%",
+                                                color: "black",
+                                            }}
+                                        >{res.soal}</p>
+                                            
                                         </Option>
                                     )
                                 })}
