@@ -11,10 +11,10 @@ import HasilTest from "../Pages/Hasil/HasilTest"
 
 export default function NavigationBar() {
 
-        const styleLink = {
-            textDecoration: "none",
-            color: "white"
-        }
+    const styleLink = {
+        textDecoration: "none",
+        color: "white"
+    }
 
 
     return (
@@ -42,7 +42,7 @@ export default function NavigationBar() {
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/soal/:id" element={<DesclaimerSoal/>} />
+                <Route path="/soal/:id" element={<DesclaimerSoal />} />
                 <Route path="/test-psikologi" element={<TesPsikologi />} />
                 <Route path="/hasil-test" element={<HasilTest />} />
                 <Route
