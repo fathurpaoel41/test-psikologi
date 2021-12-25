@@ -4,8 +4,6 @@ jalanin di port 4000\*
 json-server --watch dbTest.json --port 4000 = untuk localhost
 json-server --host 192.168.1.3 dbTest.json --port 4000 = untuk share ke client
 
-mau test revert
-
 ### Available Scripts
 
 In the project directory, you can run:
