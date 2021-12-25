@@ -1,5 +1,5 @@
 import React from "react"
-import Countdown, { zeroPad} from 'react-countdown';
+import Countdown, { zeroPad } from 'react-countdown';
 
 export default function CountdownTest() {
     const Completionist = () => <span>You are good to go!</span>
@@ -18,7 +18,7 @@ export default function CountdownTest() {
 
     return (
         <div>
-            <Countdown date={Date.now() + 5000} renderer={renderer}/>
+            <Countdown date={Date.now() + 5000} renderer={renderer} />
         </div>
     )
 }

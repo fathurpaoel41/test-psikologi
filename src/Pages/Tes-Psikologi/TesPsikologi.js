@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import Content from "../../Components/Content"
 import CountdownTest from "../../Components/CountdownTest"
 import CardTestMultipleChoice from "../../Components/CardTestMultipleChoice"
-import {Button} from "react-bootstrap"
+import { Button } from "react-bootstrap"
 import SoalIdAPI from "../../API/SoalIdAPI"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 export default class TesPsikologi extends Component {
     constructor(props) {
         super(props)
@@ -14,15 +14,15 @@ export default class TesPsikologi extends Component {
         this.finishAttemp = this.finishAttemp.bind(this)
 
         this.state = {
-            soalTest : [],
+            soalTest: [],
             id: [],
-            point : [],
-            titleSoal : "",
-            temp : null,
-            totalPoint : 0
+            point: [],
+            titleSoal: "",
+            temp: null,
+            totalPoint: 0
         }
-        
-        this.style={
+
+        this.style = {
             textDecoration: "none",
             color: "white",
         }
@@ -38,36 +38,36 @@ export default class TesPsikologi extends Component {
     }
 
     getDataSoalApi(idSoal) {
-        this.soalIdAPI.getSoalTest(idSoal).then((data)=>{
+        this.soalIdAPI.getSoalTest(idSoal).then((data) => {
             this.setState({
-                titleSoal : data.data.titleSoal,
-                soalTest : data.data.Soal,
+                titleSoal: data.data.titleSoal,
+                soalTest: data.data.Soal,
             })
         })
     }
 
-    savePoint(point){
+    savePoint(point) {
         let arrPoint = this.state.point
-        const found = arrPoint.some(el=> el.nomor === point.nomor)
-        if(!found){
+        const found = arrPoint.some(el => el.nomor === point.nomor)
+        if (!found) {
             this.setState(prevState => {
                 return {
                     ...prevState,
-                    point : [...prevState.point, point],
-                    totalPoint : this.state.totalPoint + point.point
+                    point: [...prevState.point, point],
+                    totalPoint: this.state.totalPoint + point.point
                 }
             })
-        }else{
+        } else {
             let ArrPointElse = this.state.point
             let objIndex = ArrPointElse.findIndex((obj => obj.nomor == point.nomor));
             ArrPointElse[objIndex].point = point.point
-            this.setState({point : ArrPointElse, totalPoint : this.state.totalPoint + point.point})
-        }  
+            this.setState({ point: ArrPointElse, totalPoint: this.state.totalPoint + point.point })
+        }
     }
 
-     
-    finishAttemp(e){
-        localStorage.setItem("totalPoint",this.state.totalPoint)
+
+    finishAttemp(e) {
+        localStorage.setItem("totalPoint", this.state.totalPoint)
     }
 
     render() {
@@ -78,11 +78,11 @@ export default class TesPsikologi extends Component {
                         <CountdownTest />
                     </div>
                 </div>
-                
+
                 {
-                    (this.state.soalTest.map((res)=>{
+                    (this.state.soalTest.map((res) => {
                         return (
-                            <CardTestMultipleChoice pilihan={res} savePointCallback={this.savePoint}/>
+                            <CardTestMultipleChoice pilihan={res} savePointCallback={this.savePoint} />
                         )
                     }))
                 }
