@@ -1,0 +1,556 @@
+{
+  "postTest": [
+    {
+      "id": 1,
+      "titleSoal": "Test Kepribadian",
+      "descriptionSoal": "Tes kepribadian adalah seperangkat alat tes yang disusun untuk mendeskripsikan bagaimana kecenderungan seseorang bertingkah laku.",
+      "image": "https://media.suara.com/pictures/original/2021/08/09/96184-ilustrasi-tes-kepribadian.jpg"
+    },
+    {
+      "id": 2,
+      "titleSoal": "Test Mood",
+      "descriptionSoal": "Menurut Cambridge Dictionary, moodiness atau moody adalah kualitas berubahnya suasana hati  tiba-tiba dan menjadi marah atau tidak bahagia dengan mudah",
+      "image": "https://thumbs.dreamstime.com/z/positive-psychology-concept-psychological-test-control-feelings-mood-swing-positive-psychology-concept-psychological-test-176638326.jpg"
+    }
+  ],
+  "desclaimerSoal": [
+    {
+      "id": 1,
+      "titleSoal": "Test Kepribadian",
+      "descriptionSoal": "Tes kepribadian adalah seperangkat alat tes yang disusun untuk mendeskripsikan bagaimana kecenderungan seseorang bertingkah laku. Tes kepribadian sebenarnya adalah deskripsi kualitatif dari kepribadian, bukannya deskripsi kuantitatif (angka-angka), karena sebenarnya kepribadian tidak dapat diukur, tetapi hanya dapat dideskripsikan. Untuk membantu menjelaskan kepribadian, alat tes kepribadian menggunakan bantuan angka-angka dan kemudian hasilnya dintrepretasikan/dideskripsikan kedalam kualitatif. Angka yang dilekatkan/didapatkan seseorang pada tes kepribadian bukanlah angka sesungguhnya. Jika si A mendapatkan angka 9 dari tes kepribadian dan si B mendapatkan angka 6, bukan berarti kepribadian si A lebih tinggi dari kepribadian si B. Angka disini hanyalah alat bantu untuk mendeskripsikan kepribadian, misalnya si A lebih tahan dari gangguan emosi dibandingkan dengan si B. Yang perlu diketahui pula dari tes kepribadian adalah bahwa kepribadian tidak mengandung unsur nilai “baik buruk, tinggi rendah, dan lain-lain”. Kepribadian adalah unik, sehingga tidak bisa dibandingkan dengan orang lain dalam pendeskripsiannya. Tetapi, untuk mempermudah pengukuran dalam psikologi, disusunlah suatu criteria kepribadian dalam bentuk pengelompokan. Saat ini, kita mengenal pengelompokan kepribadian yang terkenal seperti DSM (Diagnostic and Statistical Manual of Mental Disorders). Tetapi kekurangan dari pengelompokan kepribadaian ini adalah, hanya individu-indivdu yang mengalami masalah/gangguan yang dimasukkan dalam criteria tersebut"
+    },
+    {
+      "id": 2,
+      "titleSoal": "Test Mood",
+      "descriptionSoal": "Menurut Cambridge Dictionary, moodiness atau moody adalah kualitas berubahnya suasana hati  tiba-tiba dan menjadi marah atau tidak bahagia dengan mudah. Menurut istilah dalam psikologi moody adalah ketika seseorang suka murung, sedih, tidak nyaman. Ketidakstabilan mood ini merupakan masalah yang umum, namun menurut The British Journal of Psychiatry lebih banyak terjadi pada perempuan dibandingkan laki-laki dan banyak dialami oleh usia 16-24 tahun. Contoh orang moody adalah ketika teman kamu pagi tadi masuk kelas ketawa-tawa, eh siangnya dia udah murung aja, terus pas mau balik dia seneng lagi. Terus kamu juga ikutan sebel deh liat tingkah dia yang kaya gitu dan taunya dia lagi PMS (Pre-Menstrual Syndrome). Yak, betul sekali moody juga disebabkan oleh beberapa faktor salah satunya hormon dalam tubuh."
+    }
+  ],
+  "soalId": [
+    {
+      "id": 1,
+      "titleSoal": "Test Kepribadian",
+      "Soal": [
+        {
+          "nomor": 1,
+          "pertanyaan": "Kamu menginginkan orang yang seperti apa untuk menjadi pasanganmu ?",
+          "pilihan": [
+            {
+              "soal": "Kaya",
+              "point": 1
+            },
+            {
+              "soal": "Seksi",
+              "point": 4
+            },
+            {
+              "soal": "Teman Dekat",
+              "point": 3
+            },
+            {
+              "soal": "Memiliki Sifat yang sama",
+              "point": 2
+            },
+            {
+              "soal": "Yang aku cinta",
+              "point": 5
+            }
+          ]
+        },
+        {
+          "nomor": 2,
+          "pertanyaan": "Di rumahmu, ruangan mana yang menjadi tempat favoritmu?",
+          "pilihan": [
+            {
+              "soal": "Dapur",
+              "point": 1
+            },
+            {
+              "soal": "Kamar Tidur",
+              "point": 3
+            },
+            {
+              "soal": "Garasi",
+              "point": 4
+            },
+            {
+              "soal": "Teras/Ruang Tamu",
+              "point": 5
+            },
+            {
+              "soal": "Lainnya",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 3,
+          "pertanyaan": " Dalam 15 tahun ke depan, apa yang ingin kamu lakukan?",
+          "pilihan": [
+            {
+              "soal": "Berkeluarga",
+              "point": 2
+            },
+            {
+              "soal": "jadi CEO",
+              "point": 1
+            },
+            {
+              "soal": "Keliling Dunia",
+              "point": 4
+            },
+            {
+              "soal": "Tetap Menjomblo",
+              "point": 3
+            },
+            {
+              "soal": "Jadi Selebriti",
+              "point": 5
+            }
+          ]
+        },
+        {
+          "nomor": 4,
+          "pertanyaan": "Apa yang ingin kamu lakukan untuk bersenang-senang?",
+          "pilihan": [
+            {
+              "soal": "Nongkrong",
+              "point": 4
+            },
+            {
+              "soal": "Makan Dikafe",
+              "point": 1
+            },
+            {
+              "soal": "Nonton film",
+              "point": 3
+            },
+            {
+              "soal": "Shopping",
+              "point": 5
+            },
+            {
+              "soal": "Jalan-jalan sama pacar",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 5,
+          "pertanyaan": "Pilih binatang yang kamu suka?",
+          "pilihan": [
+            {
+              "soal": "Harimau/ Beruang",
+              "point": 4
+            },
+            {
+              "soal": "Singa/Merak",
+              "point": 1
+            },
+            {
+              "soal": "Katak/ Babi",
+              "point": 3
+            },
+            {
+              "soal": "Ular/ Kadal",
+              "point": 5
+            },
+            {
+              "soal": "Gajah/ Kucing",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 6,
+          "pertanyaan": "Apa warna favorit kamu?",
+          "pilihan": [
+            {
+              "soal": "Merah/ Pink",
+              "point": 4
+            },
+            {
+              "soal": "Kuning/Orange",
+              "point": 3
+            },
+            {
+              "soal": "Hijau/Coklat",
+              "point": 2
+            },
+            {
+              "soal": "Ungu / Biru",
+              "point": 1
+            },
+            {
+              "soal": "Putih/ Hitam/ Lainnya",
+              "point": 5
+            }
+          ]
+        },
+        {
+          "nomor": 7,
+          "pertanyaan": "Apa yang biasanya kamu lakukan saat santai?",
+          "pilihan": [
+            {
+              "soal": "Ngegosip",
+              "point": 4
+            },
+            {
+              "soal": "Tidur",
+              "point": 3
+            },
+            {
+              "soal": "Goda Teman",
+              "point": 5
+            },
+            {
+              "soal": "Memasak",
+              "point": 1
+            },
+            {
+              "soal": "Tetap Kerja",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 8,
+          "pertanyaan": "Apa minuman favorit kamu?",
+          "pilihan": [
+            {
+              "soal": "Teh/Kopi",
+              "point": 3
+            },
+            {
+              "soal": "Lemon/Jus Buah",
+              "point": 2
+            },
+            {
+              "soal": "Air Putih",
+              "point": 5
+            },
+            {
+              "soal": "Minuman Keras",
+              "point": 4
+            },
+            {
+              "soal": "Soft Drink",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 9,
+          "pertanyaan": "Menurutmu, apa yang terbaik dari dirimu?",
+          "pilihan": [
+            {
+              "soal": "Kuat",
+              "point": 4
+            },
+            {
+              "soal": "Pintar",
+              "point": 2
+            },
+            {
+              "soal": "Cantik / Tampan",
+              "point": 5
+            },
+            {
+              "soal": "Baik Hati",
+              "point": 3
+            },
+            {
+              "soal": "Setia",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 10,
+          "pertanyaan": "Menurutmu, apa kekurangan dirimu?",
+          "pilihan": [
+            {
+              "soal": "Penakut",
+              "point": 5
+            },
+            {
+              "soal": "Wajah Paspasan",
+              "point": 4
+            },
+            {
+              "soal": "Tidak Pintar",
+              "point": 1
+            },
+            {
+              "soal": "Lemah",
+              "point": 3
+            },
+            {
+              "soal": "Tidak Ada",
+              "point": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleSoal": "Test Mood",
+      "Soal": [
+        {
+          "nomor": 1,
+          "pertanyaan": "Berapa banyak energi yang kamu punya ?",
+          "pilihan": [
+            {
+              "soal": "Banyak, bisa untuk lari maraton",
+              "point": 3
+            },
+            {
+              "soal": "Sedikit, gampang lelah",
+              "point": 2
+            },
+            {
+              "soal": "Entahlah, rasanya pengen tidur",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 2,
+          "pertanyaan": "Musik seperti apa yang kamu sukai?",
+          "pilihan": [
+            {
+              "soal": "Pop/ Dance",
+              "point": 3
+            },
+            {
+              "soal": "Rock/ Rap/ Musik keras",
+              "point": 1
+            },
+            {
+              "soal": "Akustik/ Jazz/ Musik kalem",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 3,
+          "pertanyaan": "Musim apa yang kamu sukai?",
+          "pilihan": [
+            {
+              "soal": "Musim semi",
+              "point": 1
+            },
+            {
+              "soal": "Musim panas",
+              "point": 3
+            },
+            {
+              "soal": "Musim hujan",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 4,
+          "pertanyaan": "Saat sendirian di malam Minggu, apa yang kamu rasakan?",
+          "pilihan": [
+            {
+              "soal": "Santai aja",
+              "point": 3
+            },
+            {
+              "soal": "Bingung mau ngapain",
+              "point": 1
+            },
+            {
+              "soal": "Sedikit kecewa",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 5,
+          "pertanyaan": "Mana yang ingin kamu lakukan?",
+          "pilihan": [
+            {
+              "soal": "Lihat bintang jatuh",
+              "point": 2
+            },
+            {
+              "soal": "Tiup lilin ulang tahun",
+              "point": 3
+            },
+            {
+              "soal": "Menimba air di sumur",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 6,
+          "pertanyaan": "Apa kamu pintar menyimpan rahasia?",
+          "pilihan": [
+            {
+              "soal": "Tidak/ Tidak punya rahasia",
+              "point": 3
+            },
+            {
+              "soal": "Iya, rahasia yang penting",
+              "point": 1
+            },
+            {
+              "soal": "Tentu saja, aku punya banyak rahasia",
+              "point": 2
+            }
+          ]
+        },
+        {
+          "nomor": 7,
+          "pertanyaan": "Apa kamu sering bersama teman-temanmu?",
+          "pilihan": [
+            {
+              "soal": "Setiap hari",
+              "point": 3
+            },
+            {
+              "soal": "Setiap ada momen penting",
+              "point": 2
+            },
+            {
+              "soal": "Jarang/ Tidak pernah",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 8,
+          "pertanyaan": "Apa warna favoritmu?",
+          "pilihan": [
+            {
+              "soal": "Hitam/ Abu-abu/ Warna gelap",
+              "point": 2
+            },
+            {
+              "soal": "Kuning/ Hijau",
+              "point": 3
+            },
+            {
+              "soal": "Merah/Biru",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 9,
+          "pertanyaan": "Seperti apa kehidupanmu saat ini?",
+          "pilihan": [
+            {
+              "soal": "Senang/ Bahagia",
+              "point": 3
+            },
+            {
+              "soal": "Penuh tekanan",
+              "point": 2
+            },
+            {
+              "soal": "Datar",
+              "point": 1
+            }
+          ]
+        },
+        {
+          "nomor": 10,
+          "pertanyaan": "Apa kamu senang menyenangkan hati orang lain?",
+          "pilihan": [
+            {
+              "soal": "Tidak, terlalu sibuk",
+              "point": 2
+            },
+            {
+              "soal": "Iya, jika dia baik padaku",
+              "point": 1
+            },
+            {
+              "soal": "Iya, aku suka melihat orang bahagia",
+              "point": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasilTest": [
+    {
+      "id": 1,
+      "titleSoal": "Test Kepribadian",
+      "hasilTest": [
+        {
+          "from": 10,
+          "to": 15,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 10-15 poin, maka sifat buruk yang ada dalam dirimu yaitu rakus.Kamu adalah seorang pencinta kuliner. Kamu suka makan dan memiliki nafsu makan yang besar. Bahkan kamu akan makan dan terus makan. Tidak mengenal kata 'kenyang', tapi kamu akan berhenti kalau sudah puas. Hal tersebut pun membuatmu memiliki kepribadian sangat boros. Selain itu, saat perutmu kekenyangan, juga akan membuatmu malas bergerak.Maka dari itu, cobalah untuk mengendalikan nafsu makan, dengan cara makan secukupnya, dan berusahalah berhenti saat perut terasa kenyang."
+        },
+        {
+          "from": 16,
+          "to": 21,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 16-21 poin, maka sifat buruk yang ada dalam dirimu yaitu tamak.Kamu memiliki kepribadian sangat kompetitif dan menginginkan semua kemewahan yang ada dalam kehidupan ini.Semakin banyak yang kamu miliki, semakin banyak juga keinginan yang ingin didapatkan.Bahkan tidak ada yang bisa memuaskan dan menghentikan sifat buruk yaitu keserakahan yang ada dalam dirimu.Tapi ingatlah, yang bisa menghentikan sifat buruk yaitu keserakahanmu adalah waktu, dan 'waktu' tidak bisa di beli oleh kemewahan yang kamu kumpulkan."
+        },
+        {
+          "from": 22,
+          "to": 26,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 22-26 poin, maka sifat buruk yang ada dalam dirimu yaitu iri hati.Kamu memiliki kepribadian sangat ambisius dan memiliki impian yang besar untuk masa depanmu.Namun kamu tidak memiliki kemampuan yang cukup untuk mewujudkannya.Terkadang dari sifat buruk yaitu iri hati yang ada dalam dirimu, bisa menimbulkan rasa cemburu pada 'kepunyaan' orang lain.Entah itu, pencapaian dalam mendapatkan kekayaan, jabatan atau pangkat, serta prestasi.Bahkan sifat buruk iri hatimu itu dapat menyebabkan kemalangan, dan kamu harus tahu kalau sifat buruk iri hati adalah salah satu penyebab utama ketidakbahagiaan diri sendiri.Maka dari itu, cobalah untuk menghilangkan sifat buruk dengan cara mensyukuri nikmat yang sudah kamu miliki, karena orang lain belum tentu mendapatkannya."
+        },
+        {
+          "from": 27,
+          "to": 32,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 27-32 poin, maka sifat buruk yang ada dalam dirimu yaitu sombong.Kamu memiliki kepribadian sangat cerdas dan berbakat. Hal itulah yang membuatmu selalu berbangga diri.Kamu sering merasa lebih baik dan lebih pintar dari orang lain. Sehingga muncullah sifat buruk yang ada dalam dirimu, yaitu sombong. Sifat buruk itu juga bisa membuatmu tidak disukai dan malah dijauhi teman atau rekan. Ingatlah, tidak selamanya kamu bisa mengatasi segala hal sendirian. Sebab suatu hari nanti, kamu pasti akan membutuhkan bantuan orang lain. Jadi cobalah untuk lebih rendah hati, agar hidupmu lebih berwarna."
+        },
+        {
+          "from": 33,
+          "to": 39,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 33-39 poin, maka sifat buruk yang ada dalam dirimu yaitu malas.Kamu adalah seorang pemimpi. Kamu memiliki banyak rencana dan tujuan besar.Sayangnya, sifat buruk yang ada dalam dirimu yang justru lebih menonjol, yaitu rasa malas. Kamu terlalu malas untuk melakukan apa pun dalam mencapai impianmu.Sebenarnya kamu memiliki banyak potensi diri, tetapi kamu cenderung melakukan pekerjaan sesedikit mungkin dan suka menunda-nunda pekerjaan.Jika kamu menginginkan kesuksesan, maka segeralah buang sifat buruk yang ada dalam dirimu, karena kemalasanmu hanya akan menjadi penghalang tercapainya impian."
+        },
+        {
+          "from": 40,
+          "to": 44,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 40-44 poin, maka sifat buruk yang ada dalam dirimu yaitu gampang marah. Kamu memiliki kepribadian sangat bersemangat dan banyak ide. Tetapi sifat buruk yang ada dalam dirimu yaitu gampang marah, seringkali muncul. Kemarahanmu akan muncul ketika ide yang kamu buat tidak sesuai dengan apa yang kamu harapkan. Selain mempunyai sifat buruk yaitu gampang marah, kamu juga cenderung memiliki rasa balas dendam kepada orang yang kamu anggap bertanggung jawab atas ketidaktercapainya harapanmu. Bahkan kamu juga memiliki sifat buruk yaitu gampang merusak diri yang bisa berbahaya, baik untuk dirimu sendiri maupun orang di sekitar. Maka dari itu, cobalah untuk tarik nafas panjang saat kamu merasa akan marah. Sebab cara tersebut bisa meredam amarahmu."
+        },
+        {
+          "from": 45,
+          "to": 50,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 45-50 poin, maka sifat buruk yang ada dalam dirimu adalah hawa nafsu. Kamu adalah seorang yang bernampilan modis atau menarik yang menghargai keindahan. Namun terkadang kamu suka menyalahgunakan kecantikan atau ketampananmu, demi menggaet seseorang. Jika kamu menginginkan sesuatu, kamu harus mendapatkannya walaupun menggunakan segala cara yang diperlukan, dan biasanya kamu akan mengeluarkan sifat buruk yang ada dalam dirimu yaitu hawa nafsu diselimuti gairah menggebu. Mungkin solusi terbaik untukmu saat ini adalah cobalah mengalihkan topik yang membuatmu bergairah. Selain itu, kamu juga bisa menggunakan energimu untuk hal lain yang lebih bermanfaat. Salah satu cara yang paling efektif dengan cara berolahraga."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleSoal": "Test Mood",
+      "hasilTest": [
+        {
+          "from": 10,
+          "to": 13,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 10- 13 poin, maka mood yang sering kamu alami adalah bosan. Kamu mencoba mengingat kapan terakhir kali kamu bersenang-senang atau menghabiskan waktu untuk memanjakan diri. Sebab, sering kali kamu tidak peduli dengan masalah kecil di sekitarmu, dan tidak ada yang menarik perhatian dirimu saat ini. Mungkin kamu bisa mencoba melakukan sesuatu untuk memanjakan diri, seperti berlibur, berolahraga, atau perawatan tubuh. Hal itu akan membuat dirimu merasa jauh lebih baik dan terhindar dari mood yang sering kamu alami."
+        },
+        {
+          "from": 14,
+          "to": 17,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 14-17 poin, maka mood yang sering kamu alami adalah rasa kesal.Semuanya terasa menjengkelkan bagi dirimu, seperti cuaca yang tidak menentu, teman dan keluargamu yang selu berisik, ataupun orang di sekitarmu yang tidak sopan. Bisa jadi, hal itu dikarenakan sesuatu yang sedang terjadi dalam hati yang membuat mood kamu selalu kesal. Mungkin dengan melakukan aktivitas atau keluar rumah sendirian, kamu bisa menikmati hal-hal yang menyenangkan, seperti membeli makanan yang enak akan sedikit menenangkan hatimu."
+        },
+        {
+          "from": 18,
+          "to": 22,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 18-22 poin, maka mood yang sering kamu alami adalah stress. Tekanan yang datang silih berganti, baik itu di pekerjaan mau pun di sekolah membuat dirimu sedikit stress. Perasaan itu membuat dirmu gelisah dan kamu merasa sesuatu tidak berjalan dengan baik dan semua orang menyalahkanmu. Saat dirimu sedang merasa stress, maka kamu harus menarik nafas dalam-dalam. Lalu ingatlah, bawa semua itu akan berlalu dan dirimu akan baik-baik saja."
+        },
+        {
+          "from": 23,
+          "to": 26,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 23-26 poin, maka mood yang sering kamu alami adalah sedih.Kamu baik-baik saja, tetapi untuk beberapa saat, kamu malah merasa sedih dan kamu pun tidak tahu apa sebabnya.Merasa sedih memang hal yang normal, jadi kamu tidak perlu terlalu menyalahkan diri sendiri. Cobalah sering pergi keluar bersama teman-temanmu dan lakukanlah hal-hal baru di luar sana. Sebab, hal itu akan menghilangkan sedikit perasaan sedihmu."
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "deskripsi": "Jika hasil skor dalam tes psikologi ini ada 27-30 poin, maka mood yang sering kamu alami adalah senang dan bahagia. Bagimu, hidup itu indah dan sangat berharga, maka dari itu kamu selalu senang dan bahagia, terlebih jika dikelilingi oleh orang-orang yang mencintai dirimu. Dan sepertinya, semua hal baik diciptakan untuk dirimu karena apa pun yang kamu rencanakan selalu berjalan baik dan lancar. Kamu sangat mensyukuri kehidupanmu, maka pertahankanlah semua itu dengan terus tersenyum serta teruslah berbagi."
+        }
+      ]
+    }
+  ]
+}
